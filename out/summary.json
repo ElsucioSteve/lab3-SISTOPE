@@ -1,0 +1,26 @@
+{
+  "mode": "page",
+  "config": {
+    "threads": 4,
+    "ops_per_thread": 10000,
+    "workload": "uniform",
+    "seed": 300,
+    "unsafe": false,
+    "pages": 64,
+    "frames": 8,
+    "page_size": 4096,
+    "tlb_size": 16,
+    "tlb_policy": "fifo",
+    "evict_policy": "fifo"
+  },
+  "metrics": {
+    "tlb_hits": 1299,
+    "tlb_misses": 38701,
+    "hit_rate": 0.032,
+    "page_faults": 38701,
+    "evictions": 38693,
+    "avg_translation_time_ns": 1095852,
+    "throughput_ops_sec": 3640.55
+  },
+  "runtime_sec": 10.987337
+}
